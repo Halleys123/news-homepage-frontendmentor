@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | News homepage</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="icon">
+          <img src="./assets/images/logo.svg" alt="icon" class="iconImg" />
+        </div>
+        <div class="mobileVersion open">
+          <img src="./assets/images/icon-menu.svg" alt="icon" class="open" />
+        </div>
+
+        <div class="headerRights">
+          <div class="mobileVersion closed">
+            <img
+              src="./assets/images/icon-menu-close.svg"
+              alt="icon"
+              class="close"
+            />
+          </div>
+          <span class="headItems">Home</span>
+          <span class="headItems">New</span>
+          <span class="headItems">Popular</span>
+          <span class="headItems">Trending</span>
+          <span class="headItems">Categories</span>
+        </div>
+      </header>
+      <article>
+        <div class="primaryImage">
+          <img
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt=""
+            class="firstImage"
+          />
+        </div>
+        <div class="sideNews">
+          <p class="sideHeadingMain">New</p>
+          <div class="sideNewsBlocks">
+            <p class="sideBlockHead">Hydrogen VS Electric Cars</p>
+            <p class="text sideText">
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </p>
+          </div>
+          <div class="sideNewsBlocks">
+            <p class="sideBlockHead">The Downsides of AI Artistry</p>
+            <p class="text sideText">
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </p>
+          </div>
+          <div class="sideNewsBlocks">
+            <p class="sideBlockHead">Is VS Funding Drying Up?</p>
+            <p class="text sideText" id="noborder">
+              Private funding by VS firms is down 50% YOY. We take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+        <h1 class="title">The Bright Future of Web 3.0?</h1>
+        <div class="center">
+          <p class="text para">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <button class="readMore">READ MORE</button>
+        </div>
+
+        <div class="newsItem">
+          <div class="imageCont">
+            <img src="./assets/images/image-retro-pcs.jpg" class="smallImage" />
+          </div>
+          <div class="newsItemContent">
+            <p class="newItemCount">01</p>
+            <p class="newItemHead">Reviving Retro PCs</p>
+            <p class="text">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="newsItem">
+          <div class="imageCont">
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              class="smallImage"
+            />
+          </div>
+          <div class="newsItemContent">
+            <p class="newItemCount">02</p>
+            <p class="newItemHead">The top 10 Laptops of 2022</p>
+            <p class="text">Our best picks for various need and budgets</p>
+          </div>
+        </div>
+        <div class="newsItem">
+          <div class="imageCont">
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              class="smallImage"
+            />
+          </div>
+          <div class="newsItemContent">
+            <p class="newItemCount">03</p>
+            <p class="newItemHead">The Growth of Gaming</p>
+            <p class="text">How the pandemic has sparked fresh opportunities</p>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+  <script src="script.js  "></script>
+</html>
